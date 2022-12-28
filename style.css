@@ -30,7 +30,7 @@ body {
     margin: 10px 0;
 }
 
-form textarea {
+.principal textarea {
     font-size: 2em;
     font-family: "Inter";
     width: 100%;
@@ -40,7 +40,7 @@ form textarea {
     resize: none;
 }
 
-form textarea::placeholder {
+.principal textarea::placeholder {
     color: #0A3871;
 }
 
@@ -91,6 +91,7 @@ form textarea::placeholder {
     border-radius: 20px;
     height: 700px;
     text-align: center;
+    padding: 20px;
 }
 
 .lateral img {
@@ -111,6 +112,35 @@ form textarea::placeholder {
     font-weight: lighter;
 }
 
+.lateral textarea {
+    font-size: 1em;
+    font-family: "Inter";
+    color: #495057;
+    width: 100%;
+    height: 500px;
+    border: none;
+    background-color: transparent;
+    resize: none; 
+    margin-bottom: 10px;
+}
+
+#copiar {
+    width: 80%;
+	padding: 15px;
+	background: #ffffff;
+	color: #0A3871;
+	font-size: 14px;
+	border: none;
+	border-radius: 15px;
+	transition: 0.5s all;
+	cursor: pointer;
+    border: 1px solid #0A3871;
+}
+
+#copiar:hover {
+	background: #0A3871;
+	color: #ffffff;
+}
 
 
 /*rodapé*/

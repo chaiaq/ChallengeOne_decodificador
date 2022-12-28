@@ -17,9 +17,7 @@
         </section>
         
         <section class="principal">
-            <form>
-                <textarea placeholder="Digite seu texto"></textarea>
-            </form>
+            <textarea id="texto" placeholder="Digite seu texto"></textarea>
             
             <div>
                 <p><i class="fa-sharp fa-solid fa-circle-exclamation"></i> Apenas letras minúsculas e sem acento.</p>
@@ -28,9 +26,16 @@
         </section>
         
         <section class="lateral">
-           <img src="bonequinho.png">
-            <p>Nenhuma mensagem encontrada.</p>
-            <p>Digite o texto que você deseja criptografar ou descriptografar.</p>
+            <div id="semtexto">
+                <img src="bonequinho.png">
+                <p>Nenhuma mensagem encontrada.</p>
+                <p>Digite o texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            
+            <div id="mostrar">
+                <textarea id="criptografado"></textarea>
+                <button id="copiar">Copiar</button>
+            </div>
         </section>
     
         <br class="clearfix">
