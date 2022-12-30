@@ -144,5 +144,49 @@ footer {
     font-size: small;
 }
 
+/*adaptação para dispostivios moveis*/
+@media screen and (max-width: 820px) {
+    .principal {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .lateral {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .lateral img {
+        display: none;
+    }
+    #criptografado {
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .principal {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .lateral {
+        width: 90%;
+        height: auto;
+        margin: 5px 0;
+    }
+    .lateral img {
+        display: none;
+    }
+    #crip {
+        width: 100%;
+        margin: 5px;
+    }
+    #descrip {
+        width: 100%;
+        margin: 5px;
+    }
+    #criptografado {
+        height: max-content;
+    }
+}
 
 

@@ -1,9 +1,3 @@
-<style>
-    h1 {
-        text-align: center;
-    }
-</style>
-
 <h1>Challenge ONE - Iniciante em Programação</h1>
 <hr>
 <h2>Codificador/decodificador de texto</h2>
@@ -24,7 +18,7 @@ O desafio consiste em desenvolver uma ferramenta onde a pessoa usuária poderá 
     <li>Deve funcionar apenas com letras minúsculas</li>
     <li>Não devem ser utilizados letras com acentos nem caracteres especiais</li>
     <li>Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.</li>
-    <li>A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções</li>
+    <li>A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.</li>
     Por exemplo:
     "gato" => "gaitober"
     gaitober" => "gato"
