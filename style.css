@@ -7,8 +7,8 @@
 body {
     font-family: "Inter";
     background: #E5E5E5;
-    width: 940px;
-    margin: 40px auto;
+    width: 80%;
+    margin: 2.5em auto;
 }
 
 .logo {
@@ -16,7 +16,6 @@ body {
 }
 
 /*área do texto*/
-
 .principal {
     width: 50%;
     float: left;
@@ -24,10 +23,10 @@ body {
 }
 
 .principal p {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.75em;
+    line-height: 1em;
     color: #495057;
-    margin: 10px 0;
+    margin: 1em 0;
 }
 
 .principal textarea {
@@ -45,33 +44,32 @@ body {
 }
 
 /*botões*/
-
 #crip {
-    width: 45%;
-	padding: 15px;
+    width: 48%;
+	padding: 1.5em;
 	background: #0A3871;
-	color: #D8DFE8;
-	font-size: 14px;
-    margin-right: 15px;
+	color: #E5E5E5;
+	font-size: 0.8em;
+    margin-right: 1em;
 	border: none;
-	border-radius: 15px;
+	border-radius: 1.5em;
 	transition: 0.5s all;
 	cursor: pointer;
 }
 
 #crip:hover {
-    background: #D8DFE8;
+    background: #E5E5E5;
 	color: #0A3871;
 }
 
 #descrip {
-    width: 45%;
-	padding: 15px;
-	background: #D8DFE8;
+    width: 48%;
+	padding: 1.5em;
+	background: #E5E5E5;
 	color: #0A3871;
-	font-size: 14px;
+	font-size: 0.8em;
 	border: none;
-	border-radius: 15px;
+	border-radius: 1.5em;
 	transition: 0.5s all;
 	cursor: pointer;
     border: 1px solid #0A3871;
@@ -79,24 +77,23 @@ body {
 
 #descrip:hover {
 	background: #0A3871;
-	color: #D8DFE8;
+	color: #E5E5E5;
 }
 
 /*área lateral*/
-
 .lateral {
     width: 30%;
     float: left;
     background-color: #ffffff;
-    border-radius: 20px;
-    height: 700px;
+    border-radius: 1.8em;
+    height: 650px;
     text-align: center;
-    padding: 20px;
+    padding: 1.5em;
 }
 
 .lateral img {
     width: 80%;
-    margin-top: 50%;
+    margin-top: 20%;
 }
 
 .lateral p {
@@ -104,7 +101,7 @@ body {
     font-weight: bold;
     line-height: 1.5;
     color: #495057;
-    margin: 10px;
+    margin: 0.8em;
 }
 
 .lateral p + p {
@@ -112,26 +109,24 @@ body {
     font-weight: lighter;
 }
 
-.lateral textarea {
+#criptografado {
     font-size: 1em;
     font-family: "Inter";
     color: #495057;
     width: 100%;
-    height: 500px;
-    border: none;
-    background-color: transparent;
-    resize: none; 
+    height: 580px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 #copiar {
     width: 80%;
-	padding: 15px;
+	padding: 1.5em;
 	background: #ffffff;
 	color: #0A3871;
-	font-size: 14px;
+	font-size: 0.8em;
 	border: none;
-	border-radius: 15px;
+	border-radius: 1.5em;
 	transition: 0.5s all;
 	cursor: pointer;
     border: 1px solid #0A3871;
@@ -141,7 +136,6 @@ body {
 	background: #0A3871;
 	color: #ffffff;
 }
-
 
 /*rodapé*/
 
